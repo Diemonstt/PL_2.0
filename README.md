@@ -1,7 +1,36 @@
-# Vue 3 + Vite
+# basketbols-ar-kaju
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+NBA game outcome prediction.
 
-## Recommended IDE Setup
+### Saturs
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Technology stack](#Technology-stack)
+- [Concept](#Concept)
+- [Lietotāju stāsti](#Lietotāju-stāsti)
+
+# Tehnoloģiju steks
+
+| Servera puse |  |
+| --- | ----------- |
+| Satvars | Flask |
+| Programmēšanas valoda | Python |
+| Datu bāze | SQLLite |
+| OS | Windows |
+| Serveris | Izstrādātāja dators / Azure |
+
+
+## Concept
+![Concept model](изображение_2023-12-17_174046657.png)
+![Concept model](изображение_2023-12-17_174205256.png)
+
+
+## Lietotāju stāsti
+
+| Apraksts                                                                                                                                                              | Prioritāte (1..10) |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------:|
+| Kurjers vēlas prognozēt maršrutu, jo jāminimize laiku.                                                                                                                |         10         |
+| Kurjers vēlas saņemt savlaicīgu ziņojumu no klienta, kas caur administrāciju informē par sūtījuma sūtīšanas atcelšanu, sniedzot skaidras norādes.                     |         8          |
+| Lietotājs vēlas norēķināties par piegādi ar karti, lai atvieglotu apmaksu.                                                                                            |         5          |
+| Lietotājs vēlas saņemt prognozēto piegādes datumu, jo jāparliecinās, ka piegāde būs laika.                                                                            |         6          |
+| Saņēmējs vēlas saņemt SMS ziņojumu par sūtījuma ierašanos pieņemšanas vietā.                                                                                          |         5          |
+| Administrators vēlas saņemt atsauksmi , jo jāuzlabo programmu.                                                                                                        |         4          |
