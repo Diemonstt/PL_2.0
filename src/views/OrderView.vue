@@ -1,6 +1,6 @@
 <template>
   <main class="h-screen">
-    <div class="bg-orderPage h-full">
+    <div class="bg-purple h-full">
       <p
         class="break-normal bg-transparent opacity-30 font-bold font-mono uppercase flex justify-center items-center text-9xl"
       >
@@ -80,7 +80,7 @@
           Next
         </button>
         <button
-          class="bg-pink shadow-2xl border-none py-3 px-8 mr-10 mt-5 text-white rounded-md hover:bg-loginBtnHover"
+          class="bg-pink shadow-2xl border-none py-3 px-8 mr-10 mt-5 text-white rounded-md hover:bg-pinkHover"
         >
           Done
         </button>

@@ -6,12 +6,28 @@ import { RouterLink } from "vue-router";
     <div class="space-y-6">
       <img class="mx-auto" src="../assets/deliveri_box.png" alt="" />
       <div class="space-x-2">
-        <RouterLink activeClass="active" to="/about">About us</RouterLink>
-        <RouterLink activeClass="active" to="/order">Make an order</RouterLink>
-        <RouterLink activeClass="active" to="/account">Account</RouterLink>
+        <RouterLink
+          activeClass="active"
+          class="hover:text-pinkHover"
+          to="/about"
+          >About us</RouterLink
+        >
+        <RouterLink
+          activeClass="active"
+          class="hover:text-pinkHover"
+          to="/order"
+          >Make an order</RouterLink
+        >
+        <RouterLink
+          activeClass="active"
+          class="hover:text-pinkHover"
+          to="/account"
+          >Account</RouterLink
+        >
       </div>
-      <div class="fill-socialMedia flex justify-center items-center space-x-2">
+      <div class="fill-purple flex justify-center items-center space-x-2">
         <svg
+          class="hover:fill-pinkHover cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           height="16"
           width="14"
@@ -22,6 +38,7 @@ import { RouterLink } from "vue-router";
           />
         </svg>
         <svg
+          class="hover:fill-pinkHover cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           height="16"
           width="16"
@@ -32,6 +49,7 @@ import { RouterLink } from "vue-router";
           />
         </svg>
         <svg
+          class="hover:fill-pinkHover cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           height="16"
           width="16"
@@ -42,6 +60,7 @@ import { RouterLink } from "vue-router";
           />
         </svg>
         <svg
+          class="hover:fill-pinkHover cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           height="16"
           width="18"

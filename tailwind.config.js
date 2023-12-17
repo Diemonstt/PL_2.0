@@ -6,12 +6,20 @@ export default {
       colors: {
         pink: "#F13959",
         yellow: "#FBC13C",
-        orderPage: "#7E7ADA",
-        socialMedia: "#7E7ADA",
+        purple: "#7E7ADA",
+
+        pinkHover: "#CA2D48",
+        yellowHover: "#D89600",
+
         signUpBtn: "#7E7ADA",
         loginBtn: "#FBC13C",
-        loginBtnHover: "#D89600",
         grey: "#999999",
+      },
+      backgroundImage: {
+        "home-page": "url('./src/assets/homeBG.jpeg')",
+      },
+      fontSize: {
+        "10xl": "200px",
       },
     },
   },
