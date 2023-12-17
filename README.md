@@ -1,6 +1,4 @@
-# basketbols-ar-kaju
-
-NBA game outcome prediction.
+# Preču piegādes maršrutēšana
 
 ### Saturs
 
