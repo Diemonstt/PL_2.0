@@ -6,10 +6,9 @@
       >
         Make an order
       </p>
-      <!-- max-w-xs -->
       <form
         @submit.prevent="handleSubmit"
-        class="border-solid border-2 my-7 max-w-xl mx-auto p-10 rounded-xl"
+        class="my-7 max-w-xl mx-auto p-10 rounded-xl"
       >
         <div class="grid grid-cols-2 gap-4">
           <div>
@@ -74,16 +73,16 @@
           </div>
         </div>
       </form>
-      <div class="text-center flex place-content-between">
+      <div class="text-center flex place-content-end">
         <button
-          class="bg-signUpBtn border-none py-3 px-5 mt-5 text-white rounded-md"
+          class="bg-grey shadow-2xl border-none py-3 px-8 mt-5 mr-10 text-white rounded-md"
         >
-          Registration
+          Next
         </button>
         <button
-          class="bg-loginBtn border-none py-3 px-5 mt-5 text-white rounded-md hover:bg-loginBtnHover"
+          class="bg-pink shadow-2xl border-none py-3 px-8 mr-10 mt-5 text-white rounded-md hover:bg-loginBtnHover"
         >
-          Login
+          Done
         </button>
       </div>
     </div>

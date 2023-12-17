@@ -2,7 +2,7 @@
 import { RouterLink } from "vue-router";
 </script>
 <template>
-  <div class="h-1/5 flex justify-center items-center">
+  <div class="flex justify-center items-center my-4">
     <div class="space-y-6">
       <img class="mx-auto" src="../assets/deliveri_box.png" alt="" />
       <div class="space-x-2">

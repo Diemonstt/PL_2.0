@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-    <div class="bg-accountPage h-full">
+    <div class="bg-pink h-full">
       <p
         class="pt-3 bg-transparent opacity-30 font-bold font-mono uppercase flex justify-center items-centers text-9xl"
       >

@@ -4,7 +4,7 @@
 
 @layer base {
   .active {
-    @apply text-accountPage;
+    @apply text-pink;
   }
   .label {
     @apply inline-block mb-2 tracking-wide text-white opacity-50 uppercase font-bold;
