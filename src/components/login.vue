@@ -4,11 +4,13 @@
       <div class="space-y-6">
         <img class="mx-auto" src="../assets/deliveri_box.png" alt="" />
         <div class="space-x-2">
-          <a href="">About us</a>
-          <a href="">Make an order</a>
-          <a href="">Account</a>
+          <a class="active:text-accountPage" href="/about">About us</a>
+          <a class="active:text-accountPage" href="/order">Make an order</a>
+          <a class="active:text-accountPage" href="/account">Account</a>
         </div>
-        <div class="fill-blue-300 flex justify-center items-center space-x-2">
+        <div
+          class="fill-socialMedia flex justify-center items-center space-x-2"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="16"
@@ -52,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-red-500 h-4/5">
+    <div class="bg-accountPage h-4/5">
       <p
         class="pt-3 bg-transparent opacity-30 font-bold font-mono uppercase flex justify-center items-center text-9xl"
       >
@@ -85,21 +87,6 @@
         <div class="text-red-400 font-bold" v-if="passwordErr">
           {{ passwordErr }}
         </div>
-        <!-- <label class="text-slate-400 uppercase font-bold">Role: </label> -->
-        <!-- <select
-          class="block py-3 mb-2 outline-none px-2 w-full box-border border-solid"
-          v-model="role"
-        >
-          <option value="developer">Web Developer</option>
-          <option value="designer">Web Designer</option>
-        </select> -->
-        <!-- <label class="text-slate-400 uppercase font-bold">Skill(alt + ','):</label>
-        <input
-          class="block py-3 mb-2 outline-none px-2 w-full box-border border-solid border-b-2 border-slate-800 text-slate-600"
-          type="text"
-          v-model="tempSkill"
-          @keyup.alt="addSkill"
-        /> -->
         <div
           class="inline-block tracking-wider mt-5 mr-2 px-2 py-2 rounded-2xl bg-slate-300 text-gray-500 font-bold cursor-pointer"
           v-for="skill in skills"
@@ -107,17 +94,7 @@
         >
           <span @click="removeSkill(skill)">{{ skill }}</span>
         </div>
-        <div>
-          <input
-            v-model="termns"
-            class="inline-block w-4 mr-2.5 relative top-0.5"
-            type="checkbox"
-            required
-          />
-          <label class="text-slate-400 text-sm uppercase font-mono"
-            >Accept terms and conditions!</label
-          >
-        </div>
+        <div></div>
         <div class="text-center flex place-content-between">
           <button
             class="bg-signUpBtn border-none py-3 px-5 mt-5 text-white rounded-md"
@@ -125,7 +102,7 @@
             Registration
           </button>
           <button
-            class="bg-loginBtn border-none py-3 px-5 mt-5 text-white rounded-md"
+            class="bg-loginBtn border-none py-3 px-5 mt-5 text-white rounded-md hover:bg-loginBtnHover"
           >
             Login
           </button>
@@ -133,19 +110,6 @@
       </form>
     </div>
   </div>
-  <!-- <div class="text-center">
-    <a href="https://www.youtube.com/">
-      <button
-        class="bg-red-600 border-none py-3 px-5 mt-5 text-white rounded-3xl"
-      >
-        Go to YouTube Page!
-      </button>
-    </a>
-  </div> -->
-  <!-- <p class="text-center">Email: {{ email }}</p>
-  <p class="text-center">Password: {{ password }}</p>
-  <p class="text-center">Role: {{ role }}</p>
-  <p class="text-center">Termns: {{ termns }}</p> -->
 </template>
 <script>
 export default {

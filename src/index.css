@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .active {
+    @apply text-accountPage;
+  }
+  .label {
+    @apply inline-block mb-2 tracking-wide text-white opacity-50 uppercase font-bold;
+  }
+  .input {
+    @apply block mb-2 py-3 outline-none px-2 w-full box-border text-slate-600 rounded-md;
+  }
+}

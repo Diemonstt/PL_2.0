@@ -1,14 +1,10 @@
-<template>
-  <login />
-</template>
-
-<script>
-import login from "./components/login.vue";
-
-export default {
-  name: "App",
-  components: {
-    login,
-  },
-};
+<script setup>
+import NavBar from "./components/NavBar.vue";
+import { RouterView } from "vue-router";
 </script>
+
+<template>
+  <NavBar />
+
+  <RouterView />
+</template>
