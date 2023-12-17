@@ -10,9 +10,13 @@ import { RouterLink } from "vue-router";
         Welcome
       </p>
       <div class="flex flex-col justify-center items-center">
-        <a href="/about" class="linksOnHomePage bg-purple hover:">About us</a>
-        <a href="/order" class="linksOnHomePage bg-pink hover:bg-pinkHover"
-          >Make an order</a
+        <RouterLink to="/about" class="linksOnHomePage bg-purple hover:"
+          >About us</RouterLink
+        >
+        <RouterLink
+          to="/order"
+          class="linksOnHomePage bg-pink hover:bg-pinkHover"
+          >Make an order</RouterLink
         >
 
         <RouterLink
