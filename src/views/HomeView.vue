@@ -1,5 +1,5 @@
 <script setup>
-// import { RouterLink } from "vue-router";
+import { RouterLink } from "vue-router";
 </script>
 <template>
   <div class="h-screen">
@@ -15,10 +15,10 @@
           >Make an order</a
         >
 
-        <a
-          href="/account"
+        <RouterLink
+          to="/account"
           class="linksOnHomePage bg-yellow hover:bg-yellowHover"
-          >Account</a
+          >Account</RouterLink
         >
       </div>
     </div>
